@@ -14,19 +14,19 @@ class DoublyCircularLinkedList:
         # Write code here
 
     def add_at_head(self, data ,int d) -> bool:
-        node *temp;
-        temp = new node();
-        temp->data = d;
-        temp->prev = NULL;
-        temp->next = front;
-        // List is empty
-        if(front == NULL)
-        end = temp;
-        else
-        front->prev = temp;
-        front = temp;
-        
-        
+        {
+            node *temp;
+            temp = new node();
+            temp->data = d;
+            temp->prev = NULL;
+            temp->next = front;
+            // List is empty
+            if(front == NULL)
+            end = temp;
+            else
+            front->prev = temp;
+            front = temp;
+        }
     def add_at_index(self, index, data) -> bool:
         # Write code here
 
