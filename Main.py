@@ -6,6 +6,7 @@ class Node:
 
 
 class DoublyCircularLinkedList:
+    {
     def __init__(self):
         self.head = None
         self.count = 0
@@ -38,7 +39,7 @@ class DoublyCircularLinkedList:
 
     def get_previous_next(self, index) -> list:
         # Write code here
-
+        }
 
 # Do not change the following code
 operations = []
